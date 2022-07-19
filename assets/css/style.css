@@ -114,8 +114,8 @@ h1, h5{
   }
 
 
-  /*
+  
   .card-img-top{
-    width: auto ;
-  }*/
+    height: auto ;
+  }
 }
