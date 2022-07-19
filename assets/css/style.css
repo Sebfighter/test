@@ -64,6 +64,10 @@ h1, h5{
 
 }
 
+#navbarNav{
+  margin-right: 5rem;
+}
+
 #btnNavbar{
   color: white;
  
