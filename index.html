@@ -38,9 +38,9 @@
     <nav class="navbar navbar-expand-lg" id="navNavbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" id="logo"> Viajes Chile</a>
-        <button class="navbar-toggler" id="btnNavbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon" ></span>
+        <button class="navbar-toggler" id="btnNavbar" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
           <ul class="navbar-nav">
@@ -68,7 +68,7 @@
 
   <!--     -------------------------------------------------- Carousel --------------------------------------------------      -->
 
-  <div id="carouselExampleIndicators" class="carousel carousel-fade slide w-100" data-bs-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -203,6 +203,8 @@
       <hr />
       <div id="form">
         <div class="mb-3">
+          <div id="liveAlert"></div>
+
           <label for="exampleFormControlInput1" class="form-label">Nombre</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
         </div>
@@ -214,8 +216,11 @@
           <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
         </div>
-        <button type="submit" class="btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="top"
-          title="Presiona para enviar a tu correo" onclick="btnEnviar()">Enviar</button>
+        <!-- <button type="submit" class="btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="Presiona para enviar a tu correo" onclick="btnEnviar()">Enviar</button> -->
+        <button type="button" class="btn btn-info text-white" id="liveAlertBtn" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="Presiona para enviar a tu correo" >Enviar</button>
+        <br>
       </div>
     </div>
   </div>

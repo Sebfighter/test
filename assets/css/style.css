@@ -40,6 +40,10 @@ h1, h5{
   width: 100%;
 }
 
+.carousel-item{
+  width: 100%;
+}
+
 .card-body {
   background-color: #00ccff;
 
@@ -47,6 +51,13 @@ h1, h5{
 
 .card-img-top {
   height: 20vh;
+
+}
+
+.fa-brands{
+  width: 100px;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -74,6 +85,7 @@ h1, h5{
 }
 
 #rrss {
+  
   gap: 20px;
   text-decoration: none;
   color: white;
