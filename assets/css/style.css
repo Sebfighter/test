@@ -54,12 +54,7 @@ h1, h5{
 
 }
 
-.fa-brands{
-  width: 100px;
-  display: flex;
-  justify-content: center;
 
-}
 
 /*  ---------------------------------------------------------------*/
 
@@ -73,6 +68,11 @@ h1, h5{
   z-index: 999;
   background-color: transparent;
 
+}
+
+#liveAlert{
+  position:  absolute;
+  top: 5;
 }
 
 #navbarNav{
@@ -112,6 +112,7 @@ h1, h5{
   #presentacion {
     display: none;
   }
+
 
   /*
   .card-img-top{
