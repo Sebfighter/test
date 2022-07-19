@@ -1,39 +1,104 @@
-#logo {
-  width: 30px;
+/*  ---------------------------  selector  ------------------------*/
+
+body {
+  background-color: black;
+  color: white;
+  /*font-family: 'Lobster', cursive;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+ 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h5{
+  font-weight: 700;
+}
+
+/*  ---------------------------------------------------------------*/
+
+
+/*  ---------------------------  class  ----------------------------*/
 .navbar-nav {
   margin-left: auto;
 }
 
-#navbar {z-index: 999;
-
-}
-
 .navbar-brand {
   color: white;
-}
-
-body {
-  background-color: black;
+  margin-left: 5rem;
 }
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  body {
-    background-color: black;
-    color:white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .card-body {
-  background-color:#00ccff;
+  background-color: #00ccff;
 
+}
+
+.card-img-top {
+  height: 20vh;
+
+}
+
+/*  ---------------------------------------------------------------*/
+
+/*  ---------------------------  id  ----------------------------*/
+
+#logo {
+  width: 30px;
+}
+
+#navbar {
+  z-index: 999;
+  background-color: transparent;
+
+}
+
+#btnNavbar{
+  color: white;
+ 
+}
+
+#rrss {
+  gap: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#rrss a i {
+  text-decoration: none;
+  color: white;
+}
+
+#footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/*  ---------------------------------------------------------------*/
+
+
+/*  -----------------------  media query  --------------------------*/
+
+/* Oculta sección de Nosotros en modo responsive */
+@media (max-width: 768px) {
+  #presentacion {
+    display: none;
+  }
+
+  /*
+  .card-img-top{
+    width: auto ;
+  }*/
 }
